@@ -3,7 +3,7 @@ var luminosity = function() {
 };
 
 var darken = function () {
-	darkLuminosity = 0.2126 * (process.argv[2] * 0.8) + 0.7152 * (process.argv[2] * 0.8) + 0.0722 * (process.argv[2] * 0.8);
-	return darkLuminosity;
+	return 0.2126 * (process.argv[2] * 0.8) + 0.7152 * (process.argv[2] * 0.8) + 0.0722 * (process.argv[2] * 0.8);
 };
 console.log(luminosity());
+console.log(darken());
